@@ -1,0 +1,24 @@
+unit Model.Conexao.API.Builder;
+
+interface
+
+uses Model.Conexao.API.ResRequest.Interfaces,
+     RESTRequest4D;
+
+Type
+  TModelConexaoApiResquest = class (TInterfacedObject,IModelConexaoApiResquestInterface)
+    private
+      FReturn : String;
+      FCodeRetorno : Integer;
+    public
+      Constructor Create;
+      Destructor Destroy; override;
+      class function New : IModelConexaoApiResquestInterface;
+      function Get (aValue : String) : IModelConexaoApiResquestInterface;
+      function CodeRetorno : Integer;
+      function Return : String;
+  end;
+
+implementation
+
+end.

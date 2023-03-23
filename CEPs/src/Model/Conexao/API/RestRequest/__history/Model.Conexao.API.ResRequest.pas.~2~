@@ -1,0 +1,18 @@
+unit Model.Conexao.API.ResRequest;
+
+interface
+
+uses Model.Conexao.API.ResRequest.Interfaces;
+
+Type
+  TModelConexaoApiResquest = class (TInterfacedObject,IModelConexaoApiResquestInterface)
+    private
+    public
+
+  end;
+
+implementation
+
+uses RESTRequest4D;
+
+end.

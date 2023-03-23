@@ -1,0 +1,42 @@
+unit View.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Memo1: TMemo;
+    Panel1: TPanel;
+    edtCep: TEdit;
+    btnConsultar: TButton;
+    procedure btnConsultarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btnConsultarClick(Sender: TObject);
+var
+  LResponse: IResponse;
+begin
+  LResponse := TRequest.New.BaseURL('https://ws.apicep.com/cep/'+ edtCep.Text +'.json')
+    .Accept('application/json')
+    .Get;
+  if LResponse.StatusCode = 200 then
+    memo1.Lines.Add(
+      LResponse.Content);
+
+end;
+
+end.

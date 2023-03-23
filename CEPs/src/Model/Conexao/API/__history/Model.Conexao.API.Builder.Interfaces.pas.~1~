@@ -1,0 +1,15 @@
+unit Model.Conexao.API.Builder.Interfaces;
+
+interface
+
+Type
+  IModelConexaoApiResquestInterface = Interface
+    ['{8E9BCE95-36CA-4355-9DA1-CE59C940AD74}']
+    function Get (aValue : String) : IModelConexaoApiResquestInterface;
+    function CodeRetorno : Integer;
+    function Return : String;
+  End;
+
+implementation
+
+end.

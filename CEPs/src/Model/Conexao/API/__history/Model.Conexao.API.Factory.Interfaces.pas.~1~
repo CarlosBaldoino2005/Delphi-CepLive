@@ -1,0 +1,7 @@
+unit Model.Conexao.API.Factory.Interfaces;
+
+interface
+
+implementation
+
+end.

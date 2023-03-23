@@ -1,0 +1,16 @@
+program Ceps;
+
+uses
+  Vcl.Forms,
+  View.Principal in 'src\View\View.Principal.pas' {Form1},
+  Model.Conexao.API.ResRequest.Interfaces in 'src\Model\Conexao\API\RestRequest\Model.Conexao.API.ResRequest.Interfaces.pas',
+  Model.Conexao.API.ResRequest in 'src\Model\Conexao\API\RestRequest\Model.Conexao.API.ResRequest.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

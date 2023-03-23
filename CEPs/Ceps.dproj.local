@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/23 00:13:03.000.693,=C:\Users\Carlos\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/08 00:45:41.000.815,=C:\Users\Carlos\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/03 19:56:39.000.386,=C:\Users\Carlos\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/08 18:31:53.000.350,=D:\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/05 17:38:19.000.066,=D:\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 22:05:56.988,=D:\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 22:09:20.181,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\View\View.Principal.pas=D:\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 22:09:20.182,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\View\View.Principal.dfm=D:\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/03/22 22:09:47.080,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Ceps.dproj=D:\OneDrive - Etec Centro Paula Souza\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/03/22 22:19:38.753,=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 22:21:26.292,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\Model\Conexao\API\RestRequest\Conexao.API.ResRequest.Interfaces.pas=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 22:23:58.883,=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 22:24:41.428,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\Model\Conexao\API\RestRequest\Model.Conexao.API.ResRequest.Interfaces.pas=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 22:26:44.134,=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 22:27:26.719,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\Model\Conexao\API\RestRequest\Model.Conexao.API.ResRequest.pas=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 23:45:15.073,=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 23:45:32.264,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\Model\Conexao\API\Model.Conexao.API.Factory.Interfaces.pas=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 23:48:08.963,=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 23:48:33.162,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\Model\Conexao\API\Model.Conexao.API.Factory.pas=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 23:56:36.070,=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 23:58:12.380,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\Model\Conexao\API\Model.Conexao.API.Builder.Interfaces.pas=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 23:58:52.546,=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/22 23:59:42.100,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\Model\Conexao\API\Model.Conexao.API.Builder.pas=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/23 00:26:05.057,=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+    <Transaction>2023/03/23 00:26:18.965,D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\src\Model\Services\CEP\Model.Services.Cep.Interfaces.pas=D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\CepLive\CEPs\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

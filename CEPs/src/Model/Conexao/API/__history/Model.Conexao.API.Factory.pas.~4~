@@ -1,0 +1,46 @@
+unit Model.Conexao.API.Factory;
+
+interface
+uses Model.Conexao.API.Factory.Interfaces,Model.Conexao.API.ResRequest.Interfaces;
+
+Type
+  TModelConexaoApiFactoryInterface = class(TInterfacedObject,IModelConexaoApiFactoryInterface)
+    private
+      FRestRequest : IModelConexaoApiResquestInterface;
+    public
+      Constructor Create;
+      Destructor Destroy; Override;
+      class function New : IModelConexaoApiFactoryInterface;
+      function RestRequest : IModelConexaoApiResquestInterface;
+  end;
+
+implementation
+
+Uses Model.Conexao.API.ResRequest;
+
+{ TModelConexaoApiFactoryInterface }
+
+constructor TModelConexaoApiFactoryInterface.Create;
+begin
+
+end;
+
+destructor TModelConexaoApiFactoryInterface.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelConexaoApiFactoryInterface.New: IModelConexaoApiFactoryInterface;
+begin
+  Result := self.Create;
+end;
+
+function TModelConexaoApiFactoryInterface.RestRequest: IModelConexaoApiResquestInterface;
+begin
+  if not Assigned(FRestRequest) then
+    FRestRequest := TModelConexaoApiResquest.New;
+  Result := FRestRequest;
+end;
+
+end.

@@ -1,0 +1,7 @@
+unit Model.Conexao.API.ResRequest;
+
+interface
+
+implementation
+
+end.

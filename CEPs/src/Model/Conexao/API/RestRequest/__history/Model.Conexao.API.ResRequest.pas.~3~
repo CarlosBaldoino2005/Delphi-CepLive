@@ -1,0 +1,69 @@
+unit Model.Conexao.API.ResRequest;
+
+interface
+
+uses Model.Conexao.API.ResRequest.Interfaces,
+     RESTRequest4D;
+
+Type
+  TModelConexaoApiResquest = class (TInterfacedObject,IModelConexaoApiResquestInterface)
+    private
+      FReturn : String;
+    public
+      Constructor Create;
+      Destructor Destroy; override;
+      class function New : IModelConexaoApiResquestInterface;
+      function Get (aValue : String) : IModelConexaoApiResquestInterface;
+      function Return : String;
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TModelConexaoApiResquest }
+
+constructor TModelConexaoApiResquest.Create;
+begin
+  FReturn := '';
+end;
+
+destructor TModelConexaoApiResquest.Destroy;
+begin
+  inherited;
+end;
+
+function TModelConexaoApiResquest.Get(
+  aValue: String): IModelConexaoApiResquestInterface;
+Var FResponse: IResponse;
+begin
+  try
+    FResponse := TRequest.New.BaseURL(aValue)
+      .Accept('application/json')
+      .Get;
+    if FResponse.StatusCode = 200 then
+      FReturn := FResponse.Content
+    else
+      FReturn := 'Erro ao consultar CEP '+
+                 ' Codigo do retorno:'+FResponse.StatusCode.ToString+
+                 ' Mensagem: '+FResponse.Content;
+
+  except on  E : Exception do
+  begin
+    FReturn := 'Erro ao consultar CEP: '+e.Message;
+  end;
+  end;
+end;
+
+class function TModelConexaoApiResquest.New: IModelConexaoApiResquestInterface;
+begin
+
+end;
+
+function TModelConexaoApiResquest.Return: String;
+begin
+
+end;
+
+end.
